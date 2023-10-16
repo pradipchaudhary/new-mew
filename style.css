@@ -30,7 +30,11 @@ body {
 #back {
     width: 100%;
     height: 100vh;
-    background-color: red;
+}
+#back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #top {
     position: absolute;
@@ -38,14 +42,13 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgb(2, 2, 2);
     pointer-events: none;
 }
 
 #top_wrapper {
     margin: 0 auto;
     width: 80%;
-    height: 97vh;
+    height: 100vh;
     max-width: 1920px;
     position: relative;
 }
@@ -81,6 +84,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 0;
@@ -92,15 +96,15 @@ body {
 }
 
 #hero_left .elem {
-    height: 8vw;
+    height: 7vw;
     overflow: hidden;
 }
 #hero_left .elem h1 {
     font-family: "Kajiro";
     color: #fff;
     font-weight: 100;
-    font-size: 10vw;
-    line-height: 0.9;
+    font-size: 8vw;
+    line-height: 1;
 }
 #hero_left button {
     font-size: 2vw;
@@ -134,9 +138,9 @@ body {
 }
 #hero_right .imgDiv {
     width: 100%;
-    height: 170px;
+    height: 140px;
     margin-bottom: 20px;
-    background-image: url(./assets/IMG_7564.JPG);
+    background-image: url(https://images.pexels.com/photos/16287651/pexels-photo-16287651/free-photo-of-pradip-chaudhary.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
     background-size: cover;
     background-position: center;
 }
