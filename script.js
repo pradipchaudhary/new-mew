@@ -1,1 +1,1 @@
-Shery.imageEffect("#back", { style: 5, debug: true });
+Shery.imageEffect("#back", { style: 4, debug: true });
