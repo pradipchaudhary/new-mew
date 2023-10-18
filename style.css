@@ -114,6 +114,7 @@ body {
     letter-spacing: 4px;
     font-weight: 300;
     pointer-events: all;
+    cursor: pointer;
 }
 
 /* hero right */
