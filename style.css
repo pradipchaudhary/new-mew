@@ -61,13 +61,16 @@ body {
 #nav img {
     height: 60px;
 }
-#nav .nav_left,
-#nav .nav_right {
+#nav .nav_left {
     display: flex;
     align-items: center;
     gap: 50px;
 }
-
+#nav .nav_right {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
 #nav .nav_left a,
 #nav .nav_right a {
     text-decoration: none;
@@ -125,6 +128,10 @@ body {
     flex-direction: column;
     align-items: flex-end;
     /* background-color: blueviolet; */
+}
+#hero_right h2 {
+    font-size: 1.1vw;
+    margin-bottom: 8px;
 }
 
 #hero_right p {
