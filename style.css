@@ -168,3 +168,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+/* === Footer === */
+#footer_container {
+    margin: 0 auto;
+    width: 80%;
+}
